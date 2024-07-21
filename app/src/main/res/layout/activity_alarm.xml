@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/img"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/snoozeButton"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/design_default_color_on_primary"
+        android:text="Snooze"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <Button
+        android:id="@+id/dismissButton"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="124dp"
+        android:background="@color/white"
+        android:text="Dismiss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
